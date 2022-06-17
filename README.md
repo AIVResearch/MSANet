@@ -2,7 +2,7 @@
 # MSANet: Multi-Similarity and Attention Guidance for Boosting Few-Shot Segmentation
 This is the official implementation of the paper [MSANet: Multi-Similarity and Attention Guidance for Boosting Few-Shot Segmentation](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/)
 
-Authors: Ehtesham Iqbal^, Sirojbek Safarov^, Seongdeok Bang†
+Authors: Ehtesham Iqbal*, Sirojbek Safarov*, Seongdeok Bang†
 
 > **Abstract:** *Few-shot segmentation (FSS) aims to segment unseenclass objects given only a handful of densely labeled samples. Prototype learning, where the support feature yields a single or several prototypes by averaging global and local object information, has been widely used in FSS. However, it may be insufficient to utilize only prototype vectors to represent the features for all training data. To extract abundant features and make more precise predictions, we propose a Multi-Similarity and Attention Network (MSANet) including two novel modules, a multi-similarity module and a attention module. The multi-similarity module exploits multiple feature-maps of support image and query image to estimate accurate semantic relationship. The attention module instructs the network to concentrate on class relevant information. The network is tested on standard FSS dataset, PASCAL-5i 1-shot, PASCAL-5i 5-shot, COCO-20i 1-shot, and COCO-20i 5-shot. MSANet with the backbone of ResNet-101 achieves the state-of-the-arts performances for all 4-benchmark dataset, mean intersection over union (mIoU) of 69.13%, 73.99%, 51.09%, 56.80%, respectively*
 
