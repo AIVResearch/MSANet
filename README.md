@@ -59,7 +59,7 @@ Performance comparison with the state-of-the-art approaches (*i.e.*, [HSNet](htt
  ### Visualization
 
 <p align="middle">
-    <img src="figure/visualize.jpg">
+    <img src="figure/visual.png">
 </p>
 
 
