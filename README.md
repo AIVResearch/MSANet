@@ -32,6 +32,10 @@ Authors: Ehtesham Iqbal*, Sirojbek Safarov*, Seongdeok Bang†
 - Download our trained base learners from [OneDrive](https://aivkr-my.sharepoint.com/:f:/g/personal/safarov_sirojbek_aiv_ai/EsAKfmsEqp5DmJ4gaiUtRqUB9b256ObgzfVZ-U-R50IlFw?e=z5HIM6) and put them under `initmodel/PSPNet`. 
 - We provide all trained MSANet [models](https://aivkr-my.sharepoint.com/:f:/g/personal/safarov_sirojbek_aiv_ai/EjDn3jyTVWFHso3uX8_AgSgBj1y_nB3hQ0wP8RS9aE6Cdw?e=DbT3eH) for performance evaluation. _Backbone: VGG16 & ResNet50; Dataset: PASCAL-5<sup>i</sup> & COCO-20<sup>i</sup>; Setting: 1-shot & 5-shot_.
 
+### Scripts
+
+- Change configuration and add weight path to `.yaml` files in `MSHNet/config` , then run the `test.py` file for testing.
+
 ### Performance
 
 Performance comparison with the state-of-the-art approaches (*i.e.*, [HSNet](https://github.com/juhongm999/hsnet) and [PFENet](https://github.com/dvlab-research/PFENet)) in terms of **average** **mIoU** across all folds. 
