@@ -328,8 +328,7 @@ def validate(val_loader, model, val_seed, visual):
             if Visualizer.visualize and visual:
                 Visualizer.visualize_prediction_batch(s_input, s_mask,
                                                       input, target_vis,
-                                                      output_vis, meta_out_vis, base_out_vis, class_id, increment,
-                                                      dir_name='ours_pascal_0_test_resnet101/')
+                                                      output_vis, meta_out_vis, base_out_vis, class_id, increment)
 
             increment += 1
 
