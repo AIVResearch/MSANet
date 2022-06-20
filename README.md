@@ -38,7 +38,7 @@ Authors: Ehtesham Iqbal*, Sirojbek Safarov*, Seongdeok Bang†
 
 ### Performance
 
-Performance comparison with the state-of-the-art approaches (*i.e.*, [HSNet](https://github.com/juhongm999/hsnet) and [PFENet](https://github.com/dvlab-research/PFENet)) in terms of **average** **mIoU** across all folds. 
+Performance comparison with the state-of-the-art approaches (*i.e.*, [HSNet](https://github.com/juhongm999/hsnet), [BAM](https://github.com/chunbolang/BAM) and [VAT](https://github.com/Seokju-Cho/Volumetric-Aggregation-Transformer) in terms of **average** **mIoU** across all folds. 
 
 1. ##### PASCAL-5<sup>i</sup>
 
