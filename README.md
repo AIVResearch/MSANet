@@ -80,7 +80,7 @@ This repo is mainly built based on [PFENet](https://github.com/dvlab-research/PF
 ### BibTeX
 If you find this research useful, please consider citing:
 ````BibTeX
-@article{hong2021cost,
+@article{MSANet2022,
   title={MSANet: Multi-Similarity and Attention Guidance for Boosting Few-Shot Segmentation},
   author={Ehtesham Iqbal, Sirojbek Safarov, Seongdeok Bang},
   journal={arXiv preprint arXiv:2206.09667},
