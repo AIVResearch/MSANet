@@ -1,7 +1,7 @@
 
 # MSANet: Multi-Similarity and Attention Guidance for Boosting Few-Shot Segmentation
 This is the official implementation of the paper [MSANet: Multi-Similarity and Attention Guidance for Boosting Few-Shot Segmentation](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/)
-
+	
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/msanet-multi-similarity-and-attention/few-shot-semantic-segmentation-on-coco-20i-1)](https://paperswithcode.com/sota/few-shot-semantic-segmentation-on-coco-20i-1?p=msanet-multi-similarity-and-attention)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/msanet-multi-similarity-and-attention/few-shot-semantic-segmentation-on-coco-20i-5)](https://paperswithcode.com/sota/few-shot-semantic-segmentation-on-coco-20i-5?p=msanet-multi-similarity-and-attention)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/msanet-multi-similarity-and-attention/few-shot-semantic-segmentation-on-pascal-5i-1)](https://paperswithcode.com/sota/few-shot-semantic-segmentation-on-pascal-5i-1?p=msanet-multi-similarity-and-attention)
