@@ -76,3 +76,14 @@ Performance comparison with the state-of-the-art approaches (*i.e.*, [HSNet](htt
 ## References
 
 This repo is mainly built based on [PFENet](https://github.com/dvlab-research/PFENet), [HSNet](https://github.com/juhongm999/hsnet), and [BAM](https://github.com/chunbolang/BAM). Thanks for their great work!
+
+### BibTeX
+If you find this research useful, please consider citing:
+````BibTeX
+@article{hong2021cost,
+  title={MSANet: Multi-Similarity and Attention Guidance for Boosting Few-Shot Segmentation},
+  author={Ehtesham Iqbal, Sirojbek Safarov, Seongdeok Bang},
+  journal={arXiv preprint arXiv:2206.09667},
+  year={2022}
+}
+````
