@@ -17,8 +17,8 @@ Authors: Ehtesham Iqbal, Sirojbek Safarov, Seongdeok Bang
 
 ### Dependencies
 
-- Python 3.8
-- PyTorch 1.7.0
+- Python 3.9
+- PyTorch 1.11.0
 - cuda 11.0
 - torchvision 0.8.1
 - tensorboardX 2.14
