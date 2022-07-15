@@ -29,7 +29,7 @@ class Visualizer:
         # if not os.path.exists(cls.vis_path): os.makedirs(cls.vis_path)
 
     @classmethod
-    def visualize_prediction_batch(cls, spt_img_b, spt_mask_b, qry_img_b, qry_mask_b, pred_mask_b, pred_meta_mask_b, base_out, cls_id_b, batch_idx, iou_b=None, dir_name=None):
+    def visualize_prediction_batch(cls, spt_img_b, spt_mask_b, qry_img_b, qry_mask_b, pred_mask_b, pred_meta_mask_b, base_out, cls_id_b, batch_idx, iou_b=None, dir_name="./"):
         spt_img_b = to_cpu(spt_img_b)
         spt_mask_b = to_cpu(spt_mask_b)
         qry_img_b = to_cpu(qry_img_b)
@@ -54,7 +54,7 @@ class Visualizer:
             raise Exception('Undefined tensor type: %s' % type)
 
     @classmethod
-    def visualize_prediction(cls, spt_imgs, spt_masks, qry_img, qry_mask, pred_mask, pred_meta_mask, base_out, cls_id, batch_idx, sample_idx, label, iou=None, dir_name=None):
+    def visualize_prediction(cls, spt_imgs, spt_masks, qry_img, qry_mask, pred_mask, pred_meta_mask, base_out, cls_id, batch_idx, sample_idx, label, iou=None, dir_name="./"):
 
         spt_color = cls.colors['blue']
         qry_color = cls.colors['green']
