@@ -21,7 +21,7 @@
 
 - COCO-20<sup>i</sup>:  [COCO2014](https://cocodataset.org/#download)
 
-   Download the [data](https://aivkr-my.sharepoint.com/:f:/g/personal/safarov_sirojbek_aiv_ai/EsTvSTPyp_NCq-RIifEAnSMBy8BfNX2iVlfZZ0nSnwi3RQ?e=d3OWUj) lists (.txt files) and put them into the `MSANet/lists` directory.
+   Download the [data](https://drive.google.com/drive/folders/1GdfpfkBEVNnOENYepPxjnbIHEMavIIOw?usp=sharing) lists (.txt files) and put them into the `MSANet/lists` directory.
 
 ### Models
 
