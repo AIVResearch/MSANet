@@ -26,7 +26,7 @@
 ### Models
 
 - Download the pre-trained backbones from [here](https://drive.google.com/uc?export=download&id=1bWVt8OZt2pSDtXn_XLDbR5obSTVrUpN9) and put them into the `MSANet/initmodel` directory. 
-- Download our trained base learners from [OneDrive](https://drive.google.com/uc?export=download&id=1pPOC2rsSPMTm7B4Dr2b1yJnsMqa20u98) and put them under `initmodel/PSPNet`. 
+- Download our trained base learners from [Drive](https://drive.google.com/uc?export=download&id=1pPOC2rsSPMTm7B4Dr2b1yJnsMqa20u98) and put them under `initmodel/PSPNet`. 
 - We provide all trained MSANet [models](https://drive.google.com/uc?export=download&id=14ILPhyKXva9N8pZB495T5DC5081v9IJj) for performance evaluation. _Backbone: VGG16 & ResNet50; Dataset: PASCAL-5<sup>i</sup> & COCO-20<sup>i</sup>; Setting: 1-shot & 5-shot_.
 
 ### Scripts
@@ -35,7 +35,7 @@
 
 ### Performance
 
-Performance comparison with the state-of-the-art approaches (*i.e.*, [HSNet](https://github.com/juhongm999/hsnet), [BAM](https://github.com/chunbolang/BAM) and [VAT](https://github.com/Seokju-Cho/Volumetric-Aggregation-Transformer) in terms of **average** **mIoU** across all folds. 
+Performance comparison with the state-of-the-art approaches (*i.e.*, [HSNet], [BAM] and [VAT] in terms of **average** **mIoU** across all folds. 
 
 1. ##### PASCAL-5<sup>i</sup>
 
@@ -67,7 +67,7 @@ Performance comparison with the state-of-the-art approaches (*i.e.*, [HSNet](htt
 
 ## References
 
-This repo is mainly built based on [PFENet](https://github.com/dvlab-research/PFENet), [HSNet](https://github.com/juhongm999/hsnet), and [BAM](https://github.com/chunbolang/BAM). Thanks for their great work!
+
 
 ### BibTeX
 
