@@ -1,6 +1,6 @@
 
 # MSANet: Multi-Similarity and Attention Guidance for Boosting Few-Shot Segmentation
-This is the official implementation of the paper [MSANet: Multi-Similarity and Attention Guidance for Boosting Few-Shot Segmentation](https://arxiv.org/abs/2206.09667)
+This is the official implementation of the paper [MSANet: Multi-Similarity and Attention Guidance for Boosting Few-Shot Segmentation]
 	
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/msanet-multi-similarity-and-attention-1/few-shot-semantic-segmentation-on-coco-20i-1)](https://paperswithcode.com/sota/few-shot-semantic-segmentation-on-coco-20i-1?p=msanet-multi-similarity-and-attention-1)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/msanet-multi-similarity-and-attention-1/few-shot-semantic-segmentation-on-coco-20i-5)](https://paperswithcode.com/sota/few-shot-semantic-segmentation-on-coco-20i-5?p=msanet-multi-similarity-and-attention-1)
@@ -77,13 +77,4 @@ Performance comparison with the state-of-the-art approaches (*i.e.*, [HSNet](htt
 
 This repo is mainly built based on [PFENet](https://github.com/dvlab-research/PFENet), [HSNet](https://github.com/juhongm999/hsnet), and [BAM](https://github.com/chunbolang/BAM). Thanks for their great work!
 
-### BibTeX
-If you find this research useful, please consider citing:
-````BibTeX
-@article{MSANet2022,
-  title={MSANet: Multi-Similarity and Attention Guidance for Boosting Few-Shot Segmentation},
-  author={Ehtesham Iqbal, Sirojbek Safarov, Seongdeok Bang},
-  journal={arXiv preprint arXiv:2206.09667},
-  year={2022}
-}
 ````
