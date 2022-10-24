@@ -2,11 +2,6 @@
 # MSANet: Multi-Similarity and Attention Guidance for Boosting Few-Shot Segmentation
 This is the official implementation of the paper [MSANet: Multi-Similarity and Attention Guidance for Boosting Few-Shot Segmentation](https://arxiv.org/abs/2206.09667)
 	
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/msanet-multi-similarity-and-attention-1/few-shot-semantic-segmentation-on-coco-20i-1)](https://paperswithcode.com/sota/few-shot-semantic-segmentation-on-coco-20i-1?p=msanet-multi-similarity-and-attention-1)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/msanet-multi-similarity-and-attention-1/few-shot-semantic-segmentation-on-coco-20i-5)](https://paperswithcode.com/sota/few-shot-semantic-segmentation-on-coco-20i-5?p=msanet-multi-similarity-and-attention-1)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/msanet-multi-similarity-and-attention-1/few-shot-semantic-segmentation-on-pascal-5i-1)](https://paperswithcode.com/sota/few-shot-semantic-segmentation-on-pascal-5i-1?p=msanet-multi-similarity-and-attention-1)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/msanet-multi-similarity-and-attention-1/few-shot-semantic-segmentation-on-pascal-5i-5)](https://paperswithcode.com/sota/few-shot-semantic-segmentation-on-pascal-5i-5?p=msanet-multi-similarity-and-attention-1)
-
 Authors: Ehtesham Iqbal, Sirojbek Safarov, Seongdeok Bang
 
 > **Abstract:** *Few-shot segmentation aims to segment unseen-class objects given only a handful of densely labeled samples. Prototype learning, where the support feature yields a singleor several prototypes by averaging global and local object information, has been widely used in FSS. However, utilizing only prototype vectors may be insufficient to represent the features for all training data. To extract abundant features and make more precise predictions, we propose a Multi-Similarity and Attention Network (MSANet) including two novel modules, a multi-similarity module and an attention module. The multi-similarity module exploits multiple feature-maps of support images and query images to estimate accurate semantic relationships. The attention module instructs the network to concentrate on class-relevant information. The network is tested on standard FSS datasets, PASCAL-5i 1-shot, PASCAL-5i 5-shot, COCO-20i 1-shot, and COCO-20i 5-shot. The MSANet with the backbone of ResNet-101 achieves the state-of-the-art performance for all 4-benchmark datasets with mean intersection over union (mIoU) of 69.13%, 73.99%, 51.09%, 56.80%, respectively.*
@@ -78,12 +73,5 @@ Performance comparison with the state-of-the-art approaches (*i.e.*, [HSNet](htt
 This repo is mainly built based on [PFENet](https://github.com/dvlab-research/PFENet), [HSNet](https://github.com/juhongm999/hsnet), and [BAM](https://github.com/chunbolang/BAM). Thanks for their great work!
 
 ### BibTeX
-If you find this research useful, please consider citing:
-````BibTeX
-@article{MSANet2022,
-  title={MSANet: Multi-Similarity and Attention Guidance for Boosting Few-Shot Segmentation},
-  author={Ehtesham Iqbal, Sirojbek Safarov, Seongdeok Bang},
-  journal={arXiv preprint arXiv:2206.09667},
-  year={2022}
-}
+
 ````
