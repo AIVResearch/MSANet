@@ -25,9 +25,9 @@
 
 ### Models
 
-- Download the pre-trained backbones from [here](https://aivkr-my.sharepoint.com/:f:/g/personal/safarov_sirojbek_aiv_ai/EnGqMXVD5N5HrNgAKDpx0kUB0xo720V5L0VWRwHvVOKukw?e=90JVzl) and put them into the `MSANet/initmodel` directory. 
-- Download our trained base learners from [OneDrive](https://aivkr-my.sharepoint.com/:f:/g/personal/safarov_sirojbek_aiv_ai/EsAKfmsEqp5DmJ4gaiUtRqUB9b256ObgzfVZ-U-R50IlFw?e=z5HIM6) and put them under `initmodel/PSPNet`. 
-- We provide all trained MSANet [models](https://aivkr-my.sharepoint.com/:f:/g/personal/safarov_sirojbek_aiv_ai/EjDn3jyTVWFHso3uX8_AgSgBj1y_nB3hQ0wP8RS9aE6Cdw?e=DbT3eH) for performance evaluation. _Backbone: VGG16 & ResNet50; Dataset: PASCAL-5<sup>i</sup> & COCO-20<sup>i</sup>; Setting: 1-shot & 5-shot_.
+- Download the pre-trained backbones from [here](https://drive.google.com/uc?export=download&id=1bWVt8OZt2pSDtXn_XLDbR5obSTVrUpN9) and put them into the `MSANet/initmodel` directory. 
+- Download our trained base learners from [OneDrive](https://drive.google.com/uc?export=download&id=1pPOC2rsSPMTm7B4Dr2b1yJnsMqa20u98) and put them under `initmodel/PSPNet`. 
+- We provide all trained MSANet [models](https://drive.google.com/uc?export=download&id=14ILPhyKXva9N8pZB495T5DC5081v9IJj) for performance evaluation. _Backbone: VGG16 & ResNet50; Dataset: PASCAL-5<sup>i</sup> & COCO-20<sup>i</sup>; Setting: 1-shot & 5-shot_.
 
 ### Scripts
 
