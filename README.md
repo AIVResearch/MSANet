@@ -1,6 +1,6 @@
 
 # MSANet: Multi-Similarity and Attention Guidance for Boosting Few-Shot Segmentation
-This is the official implementation of the paper [MSANet: Multi-Similarity and Attention Guidance for Boosting Few-Shot Segmentation](https://arxiv.org/abs/2206.09667)
+This is the official implementation of the paper [MSANet: Multi-Similarity and Attention Guidance for Boosting Few-Shot Segmentation]
 	
 Authors: Ehtesham Iqbal, Sirojbek Safarov, Seongdeok Bang
 
