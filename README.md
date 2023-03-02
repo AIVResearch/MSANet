@@ -24,7 +24,7 @@ Authors: Ehtesham Iqbal, Sirojbek Safarov, Seongdeok Bang
 - tensorboardX 2.14
 
 ### Datasets
-
+Download PASCAL, COCO and Base annotation dataset and put in MSANet/data directrory.
 - PASCAL-5<sup>i</sup>:  [VOC2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/) + [SBD](http://home.bharathh.info/pubs/codes/SBD/download.html)
 
 - COCO-20<sup>i</sup>:  [COCO2014](https://cocodataset.org/#download)
