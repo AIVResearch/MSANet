@@ -28,6 +28,7 @@ Authors: Ehtesham Iqbal, Sirojbek Safarov, Seongdeok Bang
 - PASCAL-5<sup>i</sup>:  [VOC2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/) + [SBD](http://home.bharathh.info/pubs/codes/SBD/download.html)
 
 - COCO-20<sup>i</sup>:  [COCO2014](https://cocodataset.org/#download)
+- Download base annotation created by BAM from [here](https://mailnwpueducn-my.sharepoint.com/personal/langchunbo_mail_nwpu_edu_cn/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Flangchunbo%5Fmail%5Fnwpu%5Fedu%5Fcn%2FDocuments%2FFSS%2Fbase%5Fannotation&ga=1) 
 
    Download the [data](https://aivkr-my.sharepoint.com/:f:/g/personal/safarov_sirojbek_aiv_ai/EsTvSTPyp_NCq-RIifEAnSMBy8BfNX2iVlfZZ0nSnwi3RQ?e=d3OWUj) lists (.txt files) and put them into the `MSANet/lists` directory.
 
