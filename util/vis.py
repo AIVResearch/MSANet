@@ -1,4 +1,4 @@
-""" Visualize model predictions """
+""" Visualize model predictions ""
 import os
 
 from PIL import Image
