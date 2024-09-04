@@ -65,8 +65,6 @@ def get_parser():
 def get_model(args):
     model = eval(args.arch).OneModel(args, cls_type='Base')
     model = model.cuda()
-
-    # Resume
     get_save_path(args)
     check_makedirs(args.snapshot_path)
     check_makedirs(args.result_path)
