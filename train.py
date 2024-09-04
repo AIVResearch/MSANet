@@ -23,7 +23,6 @@ from torch.utils.data.distributed import DistributedSampler
 
 from tensorboardX import SummaryWriter
 
-# from model_2 import BAM_hyper_corr_new_coco
 from model import hyper_corr_prototype_transformer
 from util import dataset
 from util import transform, transform_tri, config
