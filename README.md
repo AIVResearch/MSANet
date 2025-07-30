@@ -1,11 +1,11 @@
+New Title for accepted Paper: Few-Shot Segmentation using Multi-Similarity and Attention Guidance
+ARXIV Paper Title # MSANet: Multi-Similarity and Attention Guidance for Boosting Few-Shot Segmentation
+This is the official implementation of the paper [Few-Shot Segmentation using Multi-Similarity and Attention Guidance](https://ieeexplore.ieee.org/abstract/document/11095423)
 
-# MSANet: Multi-Similarity and Attention Guidance for Boosting Few-Shot Segmentation
-This is the official implementation of the paper [MSANet: Multi-Similarity and Attention Guidance for Boosting Few-Shot Segmentation](https://arxiv.org/abs/2206.09667)
 
+Authors: Ehtesham Iqbal; Sirojbek Safarov; Seongdeok Bang; Sajid Javed; Yahya Zweiri; Yusra Abdulrahman
 
-Authors: Ehtesham Iqbal, Sirojbek Safarov, Seongdeok Bang
-
-> **Abstract:** *Few-shot segmentation aims to segment unseen-class objects given only a handful of densely labeled samples. Prototype learning, where the support feature yields a singleor several prototypes by averaging global and local object information, has been widely used in FSS. However, utilizing only prototype vectors may be insufficient to represent the features for all training data. To extract abundant features and make more precise predictions, we propose a Multi-Similarity and Attention Network (MSANet) including two novel modules, a multi-similarity module and an attention module. The multi-similarity module exploits multiple feature maps of support images and query images to estimate accurate semantic relationships. The attention module instructs the network to concentrate on class-relevant information. The network is tested on standard FSS datasets, PASCAL-5i 1-shot, PASCAL-5i 5-shot, COCO-20i 1-shot, and COCO-20i 5-shot. The MSANet with the backbone of ResNet-101 achieves the state-of-the-art performance for all 4-benchmark datasets with mean intersection over union (mIoU) of 69.13%, 73.99%, 51.09%, 56.80%, respectively.*
+> **Abstract:** *Few-shot segmentation (FSS) methods aim to segment objects of novel classes with relatively few annotated samples. Prototype learning, a popular approach in FSS, employs prototype vectors to transfer information from known classes (support images) to novel classes(query images) for segmentation. However, using only prototype vectors may not be sufficient to represent all features of the support image. To extract abundant features and make more precise predictions, we propose a Multi-Similarity and Attention Network (MSANet) including two novel modules, a multi-similarity module and an attention module. The multi-similarity module exploits multiple feature-map of support images and query images to estimate accurate semantic relationships. The attention module instructs the MSANet to concentrate on class-relevant information. We evaluated the proposed network on standard FSS datasets, PASCAL-5i 1-shot, PASCAL-5i 5-shot, COCO-20i 1-shot, and COCO-20i 5-shot. An MSANet model with a ResNet101 backbone achieved state-of-the-art performance for all four benchmark datasets with mean intersection over union (mIoU) values of 69.13%, 73.99%, 51.09%, and 56.80%, respectively. The code used is available at https://github.com/AIVResearch/MSANet.*
 
 <p align="middle">
   <img src="figure/Main.png">
@@ -78,9 +78,13 @@ This repo is mainly built based on [PFENet](https://github.com/dvlab-research/PF
 ### BibTeX
 If you find this research useful, please consider citing:
 ````BibTeX
-@article{MSANet2022,
-  title={MSANet: Multi-Similarity and Attention Guidance for Boosting Few-Shot Segmentation},
-  author={Ehtesham Iqbal, Sirojbek Safarov, Seongdeok Bang},
-  journal={arXiv preprint arXiv:2206.09667},
-  year={2022}
-}
+@ARTICLE{11095423,
+  author={Iqbal, Ehtesham and Safarov, Sirojbek and Bang, Seongdeok and Javed, Sajid and Zweiri, Yahya and Abdulrahman, Yusra},
+  journal={IEEE Open Journal of the Computer Society}, 
+  title={Few-Shot Segmentation using Multi-Similarity and Attention Guidance}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-12},
+  keywords={Prototypes;Visualization;Vectors;Feature extraction;Semantic segmentation;Training;Accuracy;Semantics;Correlation;Convolutional neural networks;Few-shot learning;Image segmentation;Deep Learning},
+  doi={10.1109/OJCS.2025.3592291}}
