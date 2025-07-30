@@ -1,5 +1,5 @@
-New Title for accepted Paper: Few-Shot Segmentation using Multi-Similarity and Attention Guidance
-ARXIV Paper Title # MSANet: Multi-Similarity and Attention Guidance for Boosting Few-Shot Segmentation
+# New Title for accepted Paper: Few-Shot Segmentation using Multi-Similarity and Attention Guidance
+# ARXIV Paper Title MSANet: Multi-Similarity and Attention Guidance for Boosting Few-Shot Segmentation
 This is the official implementation of the paper [Few-Shot Segmentation using Multi-Similarity and Attention Guidance](https://ieeexplore.ieee.org/abstract/document/11095423)
 
 
