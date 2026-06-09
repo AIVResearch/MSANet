@@ -26,13 +26,13 @@ Download PASCAL, COCO and Base annotation dataset and put in MSANet/data directr
 - COCO-20<sup>i</sup>:  [COCO2014](https://cocodataset.org/#download)
 - Download base annotation created by BAM from [here](https://github.com/chunbolang/BAM) 
 
-   Download the [data](https://aivkr-my.sharepoint.com/:f:/g/personal/safarov_sirojbek_aiv_ai/EsTvSTPyp_NCq-RIifEAnSMBy8BfNX2iVlfZZ0nSnwi3RQ?e=d3OWUj) lists (.txt files) and put them into the `MSANet/lists` directory.
+   Download the [data](https://aivkr-my.sharepoint.com/:f:/g/personal/safarov_sirojbek_aivexvision_ai/IgDE70kz8qfzQqvkSInxAJ0jASOMO9gjPjOLthbjD4-8u-g?e=hB1ArR) lists (.txt files) and put them into the `MSANet/lists` directory.
 
 ### Models
 
-- Download the pre-trained backbones from [here](https://aivkr-my.sharepoint.com/:f:/g/personal/safarov_sirojbek_aivexvision_ai/IgCT91jdGc11TK50GnOlAM3GAWTzE3uQIUIIVsbq0l5-N1U?e=jejox6) and put them into the `MSANet/initmodel` directory. 
-- Download our trained base learners from [OneDrive](https://aivkr-my.sharepoint.com/:f:/g/personal/safarov_sirojbek_aiv_ai/EsAKfmsEqp5DmJ4gaiUtRqUB9b256ObgzfVZ-U-R50IlFw?e=z5HIM6) and put them under `initmodel/PSPNet`. 
-- We provide all trained MSANet [models](https://aivkr-my.sharepoint.com/:f:/g/personal/safarov_sirojbek_aiv_ai/EjDn3jyTVWFHso3uX8_AgSgBj1y_nB3hQ0wP8RS9aE6Cdw?e=DbT3eH) for performance evaluation. _Backbone: VGG16 & ResNet50; Dataset: PASCAL-5<sup>i</sup> & COCO-20<sup>i</sup>; Setting: 1-shot & 5-shot_.
+- Download the pre-trained backbones from [here](https://aivkr-my.sharepoint.com/:f:/g/personal/safarov_sirojbek_aivexvision_ai/IgBxqjF1Q-TeR6zYACg6cdJFAbfe27fj3MW1fzp9XJBwxYw?e=apWlHz) and put them into the `MSANet/initmodel` directory. 
+- Download our trained base learners from [OneDrive](https://aivkr-my.sharepoint.com/:f:/g/personal/safarov_sirojbek_aivexvision_ai/IgBgCHytxpMsQYZE1cydkadZAeBf8-a52ivwFK3KDMhbkbw?e=wWy9ZF) and put them under `initmodel/PSPNet`. 
+- We provide all trained MSANet [models](https://aivkr-my.sharepoint.com/:f:/g/personal/safarov_sirojbek_aivexvision_ai/IgCT91jdGc11TK50GnOlAM3GAWTzE3uQIUIIVsbq0l5-N1U?e=jejox6) for performance evaluation. _Backbone: VGG16 & ResNet50; Dataset: PASCAL-5<sup>i</sup> & COCO-20<sup>i</sup>; Setting: 1-shot & 5-shot_.
 
 ### Scripts
 
